@@ -1,0 +1,847 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header .bg-img{
+    width: 100%;
+    height: 199px;
+    background: url(http://www.scwst.gov.cn/images/bg.jpg) no-repeat top center #eef7fe;;
+    display: block;
+}
+
+header .bg-img .top-link{
+    width: 990px;
+    height: 48px;
+    margin: 0 auto;
+}
+
+header .bg-img .top-link .hot-news{
+    width: 96px;
+    height: 47px;
+    text-align: center;
+    line-height: 30px;
+    background: url(http://www.scwst.gov.cn/images/link_rd.png) no-repeat;
+    float: right;
+    color: #fff;
+    font-size: 14px;
+}
+
+header .bg-img .top-link .top-menu{
+    width: 600px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 12px;
+    float: right;
+}
+
+header .bg-img .top-link .top-menu .top-menu-nav{
+    list-style: none;
+    clear: both;
+}
+
+.office-system{
+    width: 100px;
+    line-height: 32px;
+    float: left;
+}
+
+.office-1{
+    width: 120px;
+    line-height: 32px;
+    float: left;
+}
+
+header .bg-img .top-link .top-menu .top-menu-nav .office-1 .office-icon{
+    background: url(http://www.scwst.gov.cn/images/bgxt.png) no-repeat ;
+    width: 26px;
+    height: 19px;
+    margin: 6px 0px auto 10px;
+    display: inline-block;
+    position: relative;
+}
+
+.text{
+    color: #333333;
+    height: 32px;
+    line-height: 32px;
+    position: absolute;
+    margin-left: 3px;
+}
+
+header .bg-img .top-link .top-menu .top-menu-nav .office-system .weibo-icon{
+    background: url(http://www.scwst.gov.cn/images/weib.png) no-repeat ;
+    width: 26px;
+    height: 19px;
+    margin: 6px 0px auto 10px;
+    display: inline-block;
+    position: relative;
+}
+
+header .bg-img .top-link .top-menu .top-menu-nav .office-system .weixin-icon{
+    background: url(http://www.scwst.gov.cn/images/wx.png) no-repeat ;
+    width: 26px;
+    height: 19px;
+    margin: 6px 0px auto 10px;
+    display: inline-block;
+    position: relative;
+}
+
+header .bg-img .top-link .top-menu .top-menu-nav .office-system .mobile-icon{
+    background: url(http://www.scwst.gov.cn/images/mobile.png) no-repeat ;
+    width: 26px;
+    height: 19px;
+    margin: 6px 0px auto 10px;
+    display: inline-block;
+    position: relative;
+}
+
+header .bg-img .top-link .top-menu .top-menu-nav .office-1 .tv-icon{
+    background: url(http://www.scwst.gov.cn/images/imac.png) no-repeat ;
+    width: 26px;
+    height: 19px;
+    margin: 6px 0px auto 10px;
+    display: inline-block;
+    position: relative;
+}
+
+header .bg-img .logo-img{
+    width: 989px;
+    height: 109px;
+    background: url(http://www.scwst.gov.cn/images/logo.png) no-repeat;
+    margin: 0 auto;
+}
+
+header .bg-img .nav{
+    width: 100%;
+    height: 43px;
+    background: url(http://www.scwst.gov.cn/images/nav_bg.png) repeat-x left top;
+}
+
+header .bg-img .nav .nav-menu{
+    width: 990px;
+    height: 43px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+header .bg-img .nav .nav-menu .left-menu ul{
+    clear: both;
+}
+
+.navli{
+    width: 110px;
+    height: 43px;
+    overflow: hidden;
+    line-height: 43px;
+    background: url(http://www.scwst.gov.cn/images/nav_line.png) no-repeat right top;
+    float: left;
+}
+
+.navli .cotmain{
+    width: 1009px;
+    height: 217px;
+    overflow: hidden;
+    position: absolute;
+    top: 195px;
+    left: 200px;
+    background: url(http://www.scwst.gov.cn/images/i_nav_bg_03.png) no-repeat;
+    z-index: 10;
+}
+
+.nav-font{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+}
+
+header .bg-img .nav .nav-menu .left-menu ul .bg{
+    background: none;
+}
+
+header .bg-img .nav .nav-menu .search{
+    width: 256px;
+    height:28px;
+    margin-top:8px;
+    float: right;
+}
+
+header .bg-img .nav .nav-menu .search ul{
+    clear: both;
+    list-style: none;
+}
+
+header .bg-img .nav .nav-menu .search .t1{
+    width: 225px;
+    height: 28px;
+    line-height: 28px;
+    float: left;
+    overflow: hidden;
+    background: url(http://www.scwst.gov.cn/images/nav_ser.png) no-repeat;
+}
+
+header .bg-img .nav .nav-menu .search .t1 input{
+    width: 212px;
+    height: 28px;
+    overflow: hidden;
+    border: 0;
+    background: none;
+    line-height: 28px;
+    float: left;
+    padding-left: 13px;
+    outline: none;
+}
+
+header .bg-img .nav .nav-menu .search .t2{
+    width: 31px;
+    height: 28px;
+    background: url(http://www.scwst.gov.cn/images/nav_ser2.png) no-repeat;
+    float: left;
+}
+
+header .bg-img .nav .nav-menu .search .t2 input{
+    width: 31px;
+    height: 28px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    border: 0;
+    background: none;
+    cursor: pointer;
+    outline: none;
+}
+
+body{
+    background: url(http://www.scwst.gov.cn/images/bg.jpg) no-repeat top center #eef7fe;
+}
+
+body .contwaip{
+    width: 990px;
+    height: 846px;
+    margin: 40px auto 0px;
+    background: #fff;
+    overflow: hidden;
+}
+
+body .contwaip .cont1{
+    width: 950px;
+    height: auto;
+    margin: 18px auto 0px;
+    overflow: hidden;
+}
+
+body .contwaip .cont1 .banner1{
+    float: left;
+    width: 576px;
+    height: 314px;
+    background: url(http://www.scwst.gov.cn/xx/xwdt/tpxw/201806/W020180606409276298118.jpg) no-repeat;
+    overflow: hidden;
+    position: relative;
+    background-size: 576px 314px;
+}
+
+body .contwaip .cont1 .banner1 .title{
+    position: absolute;
+    height: 37px;
+    line-height: 37px;
+    bottom: 0;
+    left: 0;
+    width: 520px;
+    overflow: hidden;
+}
+
+body .contwaip .cont1 .banner1 .title a{
+    margin-left: 10px;
+    color: #fff;
+    overflow: hidden;
+    font-size: 16px;
+}
+
+body .contwaip .cont1 .banner1 .news-img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #000;
+    opacity: 0.6;
+    height: 37px;
+    width: 630px;
+}
+
+body .contwaip .cont1 .banner1 .click-btm{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 120px;
+    height: 37px;
+}
+
+body .contwaip .cont1 .banner1 .click-btm ul{
+    list-style: none;
+    overflow: hidden;
+    zoom: 1;
+}
+
+body .contwaip .cont1 .banner1 .click-btm li{
+    width: 14px;
+    height: 13px;
+    margin: 14px 9px auto auto;
+    display: inline;
+    cursor: pointer;
+    overflow: hidden;
+    background: url(http://www.scwst.gov.cn/images/slide_off.png) no-repeat;
+    float: left;
+}
+
+body .contwaip .cont1 .right-news{
+    width: 374px;
+    height: 314px;
+    overflow: hidden;
+    background: url(http://www.scwst.gov.cn/images/i_pic_02.png) no-repeat left top;
+}
+
+body .contwaip .cont1 .right-news .right-news-tt{
+    width: 340px;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    background: url(http://www.scwst.gov.cn/images/title_line.png) repeat-x left bottom;
+    margin: 0 auto;
+    padding: 0 10px
+}
+
+body .contwaip .cont1 .right-news .right-news-tt ul{
+    list-style: none;
+    clear: both;
+}
+
+body .contwaip .cont1 .right-news .right-news-tt ul li{
+    width: 98px;
+    height: 40px;
+    text-align: center;
+    margin-right: 10px;
+    float: left;
+    font-size: 20px;
+    color: #0061ae;
+    cursor: pointer;
+}
+
+body .contwaip .cont1 .right-news .right-news-tt ul li.on{
+    background: url(http://www.scwst.gov.cn/images/title_on.png) repeat-x left bottom;
+}
+
+body .contwaip .cont1 .right-news .right-news-item{
+    width: 340px;
+    height: 220px;
+    overflow: hidden;
+    margin: 10px auto;
+}
+
+body .contwaip .cont1 .right-news .right-news-item ul{
+    list-style: none;
+    clear: both;
+}
+
+body .contwaip .cont1 .right-news .right-news-item ul li{
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+    overflow: hidden;
+    font-size: 14px;
+}
+
+body .contwaip .cont1 .right-news .right-news-mm{
+    width: 320px;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    margin: 0 auto;
+    color: #727272
+}
+
+body .contwaip .cont1 .right-news .right-news-mm a{
+    color: #727272;
+    font-size: 14px;
+}
+
+body .contwaip .cont1 .left-news{
+    width: 274px;
+    height: auto;
+    float: left;
+}
+
+body .contwaip .cont1 .left-news .left-news-top{
+    height: auto;
+    margin-top: 7px;
+    background: #d1e3f2;
+    overflow: hidden;
+}
+
+body .contwaip .cont1 .left-news .left-news-top .left-news-tt{
+    width: auto;
+    height: 26px;
+    line-height: 26px;
+    overflow: hidden;
+    text-indent: 10px;
+    background: url(http://www.scwst.gov.cn/images/i_title_line.png) no-repeat left top;
+    color: #0061ae;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+body .contwaip .cont1 .left-news .left-news-top .left-news-menu{
+    padding-bottom: 10px;
+    width: 246px;
+    overflow: hidden;
+    margin: 10px auto 0 auto;
+    border-bottom: 1px dashed #fff;
+}
+
+body .contwaip .cont1 .left-news .left-news-top .left-news-menu ul{
+    list-style: none;
+    clear: both;
+}
+
+body .contwaip .cont1 .left-news .left-news-top .left-news-menu ul li{
+    height: 30px;
+    line-height: 30px;
+    width: 50%;
+    text-indent: 10px;
+    background: url(http://www.scwst.gov.cn/images/i_ico_01.png) no-repeat left center;
+    overflow: hidden;
+    display: inline;
+    float: left;
+}
+
+body .contwaip .cont1 .left-news .left-news-top .left-news-menu ul li a{
+    color: #435a6e;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+body .contwaip .cont1 .left-news .left-news-top .left-news-bt{
+    width: 246px;
+    margin: 15px auto;
+    display: block;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    overflow: hidden;
+    background: #a0c8e9;
+}
+
+body .contwaip .cont1 .left-news .left-news-top .left-news-bt a{
+    color: #566c7f;
+    text-decoration: none;
+}
+
+body .contwaip .cont1 .left-news .left-news-btm{
+    width: 274px;
+    margin-top: 24px;
+    height: auto;
+    overflow: hidden;
+}
+
+.new-hel{
+    width: auto;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    font-size: 20px;
+}
+
+ .new-hel a{
+    color: #0061ae;
+    width: auto;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    padding: 0 8px;
+    cursor: pointer;
+}
+
+.new-hel .no-padding{
+    padding: 0;
+}
+
+.bd{
+    width: 350px;
+    height: auto;
+    overflow: hidden;
+    background: url(http://www.scwst.gov.cn/images/i_line_02.png) no-repeat left top;
+    padding: 10px 6px 0 6px;
+    margin-top: 8px;
+}
+
+.bd ul{
+    clear: both;
+    list-style: none;
+}
+
+.bd ul li{
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 4px 0;
+    line-height: 22px;
+}
+
+.bd ul li a{
+    color: #333333;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+body .contwaip .cont1 .middle-news{
+    float: left;
+    width: 370px;
+    height: auto;
+    overflow: hidden;
+    margin-left: 20px;
+    border-right: 1px solid #ebebeb;
+}
+
+body .contwaip .cont1 .middle-news .zcwj{
+    width: 360px;
+    height: 250px;
+    overflow: hidden;
+}
+
+body .contwaip .cont1 .middle-news .zcwj .new-hel .f1 ul{
+    list-style-type: none;
+    clear: both;
+    float: left;
+}
+body .contwaip .cont1 .middle-news .zcwj .new-hel .f1 ul .blue-tt{
+    width: auto;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    background: url(http://www.scwst.gov.cn/images/i_pic_05.png) no-repeat right center;
+    cursor: pointer;
+    float: left;
+}
+body .contwaip .cont1 .middle-news .zcwj .new-hel .f1 ul li .blue-font{
+    color: #0061ae;
+    font-size: 20px;
+}
+
+body .contwaip .cont1 .middle-news .zcwj .new-hel .f1 ul li .gray-font{
+    width: auto;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    color: #b1b1b1;
+    padding: 0 8px;
+}
+body .contwaip .cont1 .middle-news .zcwj .new-hel .f1 ul .none-img{
+    background: none;
+    float: left;
+}
+
+body .contwaip .cont1 .middle-news .zcwj .new-hel .f2{
+    float: right;
+    font-size: 16px;
+
+}
+
+body .contwaip .cont1 .middle-news .zcwj .new-hel .f2 a{
+    color: #0061ae;
+    margin-right: 10px;
+}
+
+body .contwaip .cont1 .middle-news .zcwj .middle-news-top{
+    height: 186px;
+    padding: 10px 6px 0 6px;
+    margin-top: 8px;
+    overflow: hidden;
+    clear: both;
+}
+
+body .contwaip .cont1 .middle-news .zcwj .middle-news-top ul {
+    list-style-type: none;
+    clear: both;
+}
+
+body .contwaip .cont1 .middle-news .zcwj .middle-news-top ul li{
+    border-bottom: 1px dashed #d6d6d6;
+    overflow: hidden;
+    width: 350px;
+    height: auto;
+    padding: 3px 0;
+    line-height: 27px;
+    font-size: 14px;
+}
+
+body .contwaip .cont1 .middle-news .gggs{
+    width: 360px;
+    height: auto;
+    overflow: hidden;
+}
+
+body .contwaip .cont1 .right-gg{
+    width: 266px;
+    height: auto;
+    overflow: hidden;
+    float: right;
+}
+
+body .contwaip .cont1 .right-gg .right-zt{
+    width: 266px;
+    height: 154px;
+    overflow: hidden;
+}
+
+body .contwaip .cont1 .right-gg .right-zt .zz-img{
+    width: 266px;
+    height: 80px;
+    overflow: hidden;
+    background: url(http://www.scwst.gov.cn/images/i_line_01.png) no-repeat left top;
+    padding: 10px 0;
+    margin: 8px 0 10px 0;
+}
+
+body .contwaip .cont1 .right-gg .right-zt .zz-img ul{
+    list-style-type: none;
+    clear: both;
+}
+
+body .contwaip .cont1 .right-gg .right-zt .zz-img .new-1{
+    width: 84px;
+    height: 80px;
+    margin: 0 2px;
+    overflow: hidden;
+    background: url(http://www.scwst.gov.cn/zt/ygzl/images/P020160927545338150620.png) no-repeat;
+    display: inline-block;
+    float: left;
+}
+
+body .contwaip .cont1 .right-gg .right-zt .zz-img .new-2{
+    width: 84px;
+    height: 80px;
+    margin: 0 2px;
+    overflow: hidden;
+    background: url(http://www.scwst.gov.cn/zt/jkfp/images/P020170111685661291819.png) no-repeat;
+    display: inline-block;
+    float: left;
+}
+
+body .contwaip .cont1 .right-gg .right-zt .zz-img .new-3{
+    width: 84px;
+    height: 80px;
+    margin: 0 2px;
+    overflow: hidden;
+    background: url(http://www.scwst.gov.cn/images/qzbsd.jpg) no-repeat;
+    display: inline-block;
+    float: left;
+}
+
+body .contwaip .cont1 .right-gg .hd{
+    width: 266px;
+    height: 131px;
+    overflow: hidden;
+    border-bottom: 1px dashed #d6d6d6;
+}
+
+body .contwaip .cont1 .right-gg .hd .gray2{
+    display: inline;
+    margin-top: 10px;
+    color: #727272;
+    font-size: 12px;
+    float: right;
+}
+
+.fl{
+    float: left;
+}
+
+body .contwaip .cont1 .right-gg .hd .hd-image{
+    width: 266px;
+    height: 70px;
+    overflow: hidden;
+    background: url(http://www.scwst.gov.cn/images/i_line_01.png) no-repeat left top;
+    padding: 10px 0;
+    margin-top: 8px;
+}
+
+body .contwaip .cont1 .right-gg .hd .hd-image i{
+    background:url(http://www.scwst.gov.cn/images/chenlieguan.jpg) no-repeat;
+    width: 266px;
+    height: 70px;
+    display: block;
+    background-size: 266px 70px;
+}
+
+body .contwaip .cont1 .right-gg .ft-img{
+    width: 266px;
+    height: 166px;
+    overflow: hidden;
+    margin-top: 14px;
+    position: relative;
+}
+
+body .contwaip .cont1 .right-gg .ft-img .pic{
+    width: 253px;
+    height: 145px;
+    background: url(http://www.scwst.gov.cn/hd/zxft/201705/W020170518340239759632.jpg) no-repeat;
+    overflow: hidden;
+    position: relative;
+    background-size: 253px 145px;
+}
+
+body .contwaip .cont1 .right-gg .ft-img .pic .top-p{
+    width: 77px;
+    height: 25px;
+    line-height: 25px;
+    overflow: hidden;
+    background: url(http://www.scwst.gov.cn/images/i_ico_02.png) no-repeat;
+    position: absolute;
+    left: 0;
+    top: 10px;
+    color: #1c55a4;
+    text-indent: 6px;
+}
+
+body .contwaip .cont1 .right-gg .ft-img .btm-s{
+    width: 253px;
+    height: 28px;
+    line-height: 28px;
+    overflow: hidden;
+    background: #1c55a4;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    text-indent: 10px;
+}
+
+body .contwaip .cont1 .right-gg .ft-img .btm-s a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+body .footer{
+    width: 990px;
+    height: auto;
+    margin: 0 auto;
+}
+
+body .footer .footer-solid{
+    border: 2px solid #5b9bd4;
+}
+
+body .footer .link-pic{
+    height: 45px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+body .footer .link-pic ul{
+    list-style: none;
+    clear: both;
+}
+body .footer .link-pic ul .pic1{
+    width: 316px;
+    height: 45px;
+    background: url(http://www.scwst.gov.cn/images/link_pic_03.png) no-repeat;
+    overflow: hidden;
+    float: left;
+    display: inline;
+}
+
+body .footer .link-pic ul .pic2{
+    width: 316px;
+    height: 45px;
+    background: url(http://www.scwst.gov.cn/images/link_pic_01.png) no-repeat;
+    overflow: hidden;
+    float: left;
+    display: inline;
+    margin: 0px 20px
+}
+
+body .footer .link-pic ul .pic3{
+    width: 316px;
+    height: 45px;
+    background: url(http://www.scwst.gov.cn/images/link_pic_02.png) no-repeat;
+    overflow: hidden;
+    float: left;
+    display: inline;
+}
+
+body .footer .footer-nav{
+    margin-top: 10px;
+    height: auto;
+    height: 36px;
+    overflow: hidden;
+    background: #7fb6e7;
+}
+
+body .footer .footer-nav li{
+    width: 30%;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    background: url(http://www.scwst.gov.cn/images/bot_link.png) no-repeat 240px center;
+    overflow: hidden;
+    float: left;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+body .footer .btm-a{
+    width: 990px;
+    height: auto;
+    padding: 10px 0;
+    overflow: hidden;
+    margin: 0 auto;
+    clear: both;
+
+}
+
+body .footer .btm-a .icon-a{
+    width: 200px;
+    height: 76px;
+    float: left;
+    margin-left: 20px;
+}
+
+body .footer .btm-a .icon-a ul{
+    clear: both;
+    list-style: none;
+}
+
+body .footer .btm-a .icon-a ul .icon1{
+    background: url(http://www.scwst.gov.cn/images/bot_ico.png) no-repeat;
+    margin-top: 10px;
+    display: inline-block;
+    width: 54px;
+    height: 66px;
+    float: left;
+    margin-right: 10px;
+}
+
+body .footer .btm-a .icon-a ul .icon2{
+    background: url(http://121.43.68.40/exposure/images/jiucuo.png?v=5100000053) no-repeat;
+    margin: 10px auto;
+    display: inline-block;
+    width: 110px;
+    height: 55px;
+    float: left;
+}
+
+body .footer .btm-a .zz-table{
+    width: 700px;
+    height: auto;
+    overflow: hidden;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 24px;
+    color: #84a5be;
+    float: left;
+    font-size: 12px;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+}
